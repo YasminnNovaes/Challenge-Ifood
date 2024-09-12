@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    
+    <nav id="sidebar">
+        <div id="sidebar_content">
+
+            <div id="logo">
+                <img src="src/images/ifood-logo.svg" id="logo_ifood" alt="Logo iFood">
+            </div>
+
+            <ul id="side_items">
+                <li class="side-item active">
+                    <a href="#">
+                        <i class="bi bi-graph-up"></i>
+                        <span class="item-description">
+                            Dashboard
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-currency-dollar"></i>
+                        <span class="item-description">
+                            Transações
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-wallet2"></i>
+                        <span class="item-description">
+                            Gestão
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-file-earmark-bar-graph"></i>
+                        <span class="item-description">
+                            Análises
+                        </span>
+                    </a>
+                </li>
+    
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-gear-fill"></i>
+                        <span class="item-description">
+                            Configurações
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-person-fill"></i>
+                        <span class="item-description">
+                            Conta
+                        </span>
+                    </a>
+                </li>
+
+                <li class="side-item">
+                    <a href="#">
+                        <i class="bi bi-shield-check"></i>
+                        <span class="item-description">
+                            Segurança
+                        </span>
+                    </a>
+                </li>
+
+                
+            </ul>
+
+            
+    
+        <div id="end">
+
+            <button id="logout_btn">
+                <i class="bi bi-question-circle"></i>
+                <span class="item-description">
+                    Help center
+                </span>
+            </button>
+            
+            <button id="logout_btn">
+                <i class="bi bi-arrow-bar-right"></i>
+                <span class="item-description">
+                    Logout
+                </span>
+            </button>
+
+            <button id="open_btn">
+                <i id="open_btn_icon" class="bi bi-arrow-bar-right"></i>
+            </button>
+        </div>
+
+        </div>
+    </nav>
+
+    <header>
+        <form action="#">
+            <div class="form-input">
+                <input type="search" placeholder="Search...">
+                <button type="submit" class="search-btn">
+                <i class="bi bi-search"></i></button>
+            </div>
+        </form>
+
+        <a href="#" class="notification">
+            <i class='bi bi-bell' ></i>
+            <span class="num">8</span>
+        </a>
+
+        <a href="#" class="profile">
+            <img src="src/images/perfil.png">
+        </a>
+    </header>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
+
