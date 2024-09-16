@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             {
                 type: 'bar',
-                label: 'Receitas',
+                label: 'Entradas',
                 backgroundColor: '#F2FDF5',
                 data: [15000, 20000, 25000, 30000, 20000, 18000, 22000, 19000, 23000, 25000, 24000, 28000],
                 borderColor: '#7ADC9E',
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             {
                 type: 'bar',
-                label: 'Despesas',
+                label: 'Saidas',
                 backgroundColor: '#FFE7E1',
                 data: [-12000, -15000, -17000, -16000, -13000, -14000, -15000, -16500, -17500, -18000, -19000, -20000],
                 borderColor: '#FF7752',
@@ -57,6 +57,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     new Chart(ctx, config);
 });
+
+
+//Gráficos dos principais produtos
 
 const ctx = document.getElementById('salesChart').getContext('2d');
 
@@ -180,38 +183,3 @@ function renderTabelaFluxo() {
 
 // Executar função para preencher a tabela
 renderTabelaFluxo();
-
-document.addEventListener('DOMContentLoaded', function() {
-    const ctx = document.getElementById('receitasDespesasGrafico').getContext('2d');
-    const receitasDespesasGrafico = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho'],
-            datasets: [
-                {
-                    label: 'Receitas',
-                    data: [12000, 15000, 10000, 18000, 22000, 16000],
-                    backgroundColor: 'rgba(75, 192, 192, 0.6)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1
-                },
-                {
-                    label: 'Despesas',
-                    data: [10000, 12000, 9000, 14000, 20000, 13000],
-                    backgroundColor: 'rgba(255, 99, 132, 0.6)',
-                    borderColor: 'rgba(255, 99, 132, 1)',
-                    borderWidth: 1
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
-        }
-    });
-});
-
