@@ -255,32 +255,28 @@ input[type="date"], select {
   color: #333;
 }
 
-
-
-@media(max-width:531px){}
-/* Responsividade */
 @media (max-width: 800px) {
-  .menu-toggle {
-    display: block;
-  }
-
   .nav {
-    display: none;
+    width: 5rem; 
+    padding: 1rem; 
   }
-}
 
-/* Animação ao abrir o menu */
-.nav.active {
-  display: block;
-  animation: slideIn 0.3s ease-in-out forwards;
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateY(-100%);
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0; 
   }
-  to {
-    transform: translateY(0);
+
+  .nav-link span {
+    display: none; 
+  }
+
+  .nav-link i {
+    font-size: 1rem; 
+  }
+  .nav.active {
+    display: block;
+    animation: slideIn 0.3s ease-in-out forwards;
   }
 }
 
