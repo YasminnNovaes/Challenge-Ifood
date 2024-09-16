@@ -88,16 +88,15 @@ main {
 }
 
 .side-item.active a {
-    color: var(--Gray95);
+    background-color: #ea1d2c; /* Fundo vermelho */
+    color: #fff; /* Texto branco */
+    border-radius: 5px; /* Bordas arredondadas */
 }
 
-.side-item a i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: 20px;
+.side-item.active a i {
+    color: #fff; /* Ícone branco */
 }
+
 
 #end {
     border-top: 1px solid var(--Gray95);

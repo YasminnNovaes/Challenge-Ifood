@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+    font-family: 'Inria Serif', serif;
+}
+
+.bg-red {
+    background-color: white;
+}
+
+.text-white {
+    color: white; /* Texto branco */
+}
+
+.card {
+    border: none; /* Remove as bordas do card */
+    border-radius: 15px; /* Adiciona borda arredondada */
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.list-unstyled li {
+    padding: 10px;
+    border-bottom: 1px solid #ffffff66; 
+}
+
+.list-unstyled li:last-child {
+    border-bottom: none;
+}
+

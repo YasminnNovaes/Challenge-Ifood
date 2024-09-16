@@ -33,8 +33,77 @@
         }
     </style>
 </head>
+
 <body class="bg-white">
-    <!-- Botão de Voltar para dispositivos móveis -->
+    <header>
+
+        <div id="logo">
+            <img src="src/images/ifood-logo.svg" id="logo_ifood" alt="Logo iFood">
+            </div>
+
+        <form action="#">
+            <div class="form-input">
+                <input type="search" placeholder="Search...">
+                <button type="submit" class="search-btn">
+                <i class="bi bi-search"></i></button>
+            </div>
+        </form>
+
+        
+        <a href="#" class="notification" aria-label="Notificações">
+            <i class='bi bi-bell' ></i>
+            <span class="num">8</span>
+        </a>
+
+        <a href="#" class="profile">
+            <img src="src/images/perfil.png">
+        </a>
+    </header>
+
+
+    <main class="main-container">
+        <div class="nav flex-column">
+            <img src="src/images/sorriso-ifood.svg" id="logo_ifood" alt="Logo iFood" style="padding-bottom: 20px;">
+            <a class="nav-link" href="dashboard.html">
+              <i class="bi bi-graph-up"></i>
+              <span class="item-description">Dashboard</span>
+            </a>
+            <a class="nav-link active" href="transacoes.html">
+              <i class="bi bi-currency-dollar"></i>
+              <span class="item-description">Transações</span>
+            </a>
+            <a class="nav-link" href="gestao.html">
+              <i class="bi bi-wallet2"></i>
+              <span class="item-description">Gestão</span>
+            </a>
+            <a class="nav-link" href="analises.html">
+              <i class="bi bi-file-earmark-bar-graph"></i>
+              <span class="item-description">Análises</span>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="bi bi-gear-fill"></i>
+              <span class="item-description">Configurações</span>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="bi bi-person-fill"></i>
+              <span class="item-description">Conta</span>
+            </a>
+            <a class="nav-link" href="seguranca.html">
+              <i class="bi bi-shield-check"></i>
+              <span class="item-description">Segurança</span>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="bi bi-question-circle-fill"></i>
+              <span class="item-description">Help center</span>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="bi bi-box-arrow-right"></i>
+              <span class="item-description">Logout</span>
+            </a>
+          </div>
+
+        <section class="content">
+            <!-- Botão de Voltar para dispositivos móveis -->
     <button id="backButton" onclick="window.history.back()">&larr;</button>
 
     <div id="app" class="container mt-5">
@@ -70,6 +139,9 @@
             </div>
         </div>
     </div>
+        </section>
+    </main>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <script src="transacoes.js"></script>
