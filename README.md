@@ -11,7 +11,7 @@ A proposta do **Challenge-Ifood**, desenvolvida em parceria com a **FIAP** e o *
 - Geração de **relatórios**.
 - Visão geral do negócio, incluindo os principais produtos vendidos, fluxo de caixa e despesas.
 
-<div align="center"> [Veja o projeto aqui] </div>
+[Link do projeto](https://yasminnnovaes.github.io/Challenge-Ifood/)
 
 ##
 
