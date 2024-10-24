@@ -2,7 +2,6 @@
 
 body {
     background-color: white;
-    font-family: 'Inria Serif', serif;
 }
 
 .bg-red {
@@ -10,9 +9,12 @@ body {
 }
 
 .text-white {
-    color: white; /* Texto branco */
+    color: white; 
+     font-weight: bold;/* Texto branco */
 }
 
+
+    
         /* Estilo para o ícone de voltar */
         #backButton {
             display: none;
